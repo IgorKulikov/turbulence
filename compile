@@ -1,0 +1,1 @@
+mpiicc -O2 -o mhd3d -I /ifs/home/icmmg/kulikov/fftw215/include -L /ifs/home/icmmg/kulikov/fftw215/lib main.cpp -lrfftw_mpi -lfftw_mpi -lrfftw -lfftw -lm
